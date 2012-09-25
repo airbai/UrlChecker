@@ -1,0 +1,1 @@
+URLChecker is a Chrome Extension which checking URL when mouse over a link against Google's constantly-updated blacklists of suspected phishing and malware pages.

@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "jquery-1.7.1.min.js", "user.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Speech via Chrome!",
+   "icons": {
+      "128": "logo128.png",
+      "16": "logo16.png",
+      "32": "logo32.png",
+      "48": "logo.png"
+   },
+   "minimum_chrome_version": "11",
+   "name": "UrlChecker",
+   "permissions": [ "http://*/*", "https://*/*"],
+  "content_security_policy": "script-src 'self' https://sb-ssl.google.com; object-src 'self'",
+	"manifest_version": 2,
+   "version": "0.1"
+}
